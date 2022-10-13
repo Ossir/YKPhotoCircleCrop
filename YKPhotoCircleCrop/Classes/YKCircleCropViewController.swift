@@ -241,7 +241,7 @@ open class YKCircleCropViewController: UIViewController, UIScrollViewDelegate {
         let finalImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
 
-        if let imageData = UIImagePNGRepresentation(finalImage!),
+        if let imageData = finalImage!.pngData(),
             var pngImage = UIImage(data: imageData) {
             if let imageSize = imageSize {
                 pngImage = pngImage.resizeImage(newWidth: imageSize.width)

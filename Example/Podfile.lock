@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YKPhotoCircleCrop: 2d749949a8c3ddf2e9255ec40ff1df17b6cd6016
+  YKPhotoCircleCrop: 490de96b999aef44cea6d6dca8e0bc199a430e63
 
 PODFILE CHECKSUM: 1dcc6cf2f0296a6fd8f970d9af33ca2eed2482b1
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1
